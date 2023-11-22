@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    margin: 0;
+    color: #333;
+    font-family: Georgia, serif;
+}
+
+.logo {
+    width: 200px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
