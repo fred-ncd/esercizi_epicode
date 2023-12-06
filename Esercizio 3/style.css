@@ -1,0 +1,58 @@
+.box-img {
+    
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+.img-lampadina {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+
+.button-save {
+    background-color: red;
+    padding: 8px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.list-button {
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    bottom: 20px;
+    display: none;
+    
+
+}
+
+.grey-btm {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.box-img:hover .list-button {
+    display: block;
+}
+
+.box-img:hover .button-save {
+    display: block;
+}
